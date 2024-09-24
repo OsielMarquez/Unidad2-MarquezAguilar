@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+</head>
+<body>
+    <form action="buscar_libros.php" method="post">
+        <h2>Búsqueda de Libros</h2>
+      
+        <label for="titulo">Título del libro</label>
+        <input type="text" id="titulo" name="titulo">
+        <br><br>
+      
+        <label for="autor">Autor</label>
+        <input type="text" id="autor" name="autor">
+        <br><br>
+      
+        <label for="genero">Género</label>
+        <select id="genero" name="genero">
+          <option value="fantasia">Fantasía</option>
+          <option value="ciencia_ficcion">Ciencia Ficción</option>
+          <option value="misterio">Terror</option>
+          <option value="romance">Romance</option>
+        </select>
+        <br><br>
+      
+        <label for="fecha_inicio">Fecha de publicación (desde):</label>
+        <input type="date" id="fecha_inicio" name="fecha_inicio">
+        <br><br>
+      
+        <label for="fecha_fin">Fecha de publicación (hasta):</label>
+        <input type="date" id="fecha_fin" name="fecha_fin">
+        <br><br>
+      
+        <label for="ordenar">Ordenar por:</label>
+        <select id="ordenar" name="ordenar">
+          <option value="popularidad">Popularidad</option>
+          <option value="fecha">Fecha</option>
+          <option value="relevancia">Relevancia</option>
+        </select>
+        <br><br>
+      
+        <input type="submit" value="Buscar">
+      </form>
+      
+</body>
+</html>
