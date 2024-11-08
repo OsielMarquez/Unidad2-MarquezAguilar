@@ -1,2 +1,4 @@
 # Unidad2-MarquezAguilar
- Practicas de la unidad 2
+ Examen tipo trabajo/ proyecto de la unidad dos
+ Es mi curriculum, está bonito.
+ https://osielmarquez.github.io/Unidad2-MarquezAguilar/
