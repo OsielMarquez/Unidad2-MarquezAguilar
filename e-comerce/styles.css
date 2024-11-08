@@ -1,0 +1,45 @@
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: #5b3030;
+}
+header nav#menu_inicio {
+    display: flex;
+    justify-content: center; /* Centra los elementos */
+    justify-content: space-around;
+    gap: 20px; /* Espacio entre las categorías */
+    border-bottom: 2px solid black;
+    padding: 10px 0; /* Ajusta la separación */
+}
+
+header nav#menu_inicio a {
+    text-decoration: none;
+    color: #000000;
+    font-size: larger;
+}
+
+div#catego {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center; /* Distribuye el espacio entre las columnas */
+    justify-content: space-around;
+    color: #000000;
+    font-size: larger;
+}
+footer ul {
+    list-style-type: none; /* Eliminar viñetas de la lista */
+}
+footer a{
+    display:flex ;
+    color: #000000;
+    font-size: medium;
+    font-style: italic;
+    text-decoration: none;
+}

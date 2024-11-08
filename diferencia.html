@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diferencias entre las medidas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        p strong {
+            color: #c0392b;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Investiga las diferencias entre <strong>px</strong>, <strong>em</strong>, <strong>rem</strong>, etc.</h1>
+    <p><strong>px (píxeles)</strong>: Tamaño absoluto que no varía con respecto al contenedor. Es útil cuando se desea un tamaño fijo y exacto, independiente del tamaño de la pantalla.</p>
+    <p><strong>em</strong>: Unidad relativa basada en el tamaño de la fuente del elemento padre. Si el elemento padre tiene un tamaño de fuente de 16px, entonces 1em será igual a 16px. Útil para escalabilidad.</p>
+    <p><strong>rem</strong>: Similar a em, pero relativo al tamaño de la fuente del elemento raíz (html). Esto proporciona una escala más predecible y consistente en el diseño.</p>
+    <p><strong>%</strong>: Unidad relativa, utilizada principalmente para ajustar el tamaño de contenedores y elementos en función del tamaño de su elemento padre, como el ancho o el alto.</p>
+    <p><strong>vw</strong> y <strong>vh</strong>: Unidades relativas al viewport (tamaño de la ventana del navegador). 1vw representa el 1% del ancho del viewport, mientras que 1vh representa el 1% del alto. Útil para crear tamaños de elementos que se adapten al tamaño de la pantalla.</p>
+</body>
+</html>
