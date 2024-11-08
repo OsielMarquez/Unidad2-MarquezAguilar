@@ -63,6 +63,11 @@ video {
   max-width: 100%;
   height: auto;
 }
+.contenedor {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
 
 @media (min-width: 600px) {
   header h1 {
