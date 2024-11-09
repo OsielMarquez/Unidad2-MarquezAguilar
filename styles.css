@@ -5,14 +5,6 @@
   box-sizing: border-box;
 }
 
-/* Estilos de la imagen de perfil en el encabezado */
-.imagen-perfil {
-  width: 100px; /* Ajusta el ancho según el tamaño deseado */
-  height: auto; /* Mantiene la proporción de la imagen */
-  border-radius: 50%; /* Hace la imagen redonda; opcional */
-  margin-top: 1rem; /* Añade espacio superior si es necesario */
-}
-
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
