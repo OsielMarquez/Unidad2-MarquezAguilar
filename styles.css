@@ -1,57 +1,83 @@
-/* Estilos generales */
+/* Reset de márgenes y paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  background-color: #f7fffb;
+  color: #333;
+  background-color: #f9f9f9;
 }
 
 header {
   text-align: center;
-  padding: 20px;
+  padding: 1rem;
+  background-color: #282c34;
+  color: #ffffff;
 }
 
 header h1 {
-  font-size: 1.3em; /* Tamaño de fuente más pequeño */
+  font-size: 1.8rem;
+}
+
+/* Estilos de la navegación */
+nav.navegacion {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #4a90e2;
+  padding: 1rem;
+}
+
+nav.navegacion a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
   font-weight: bold;
-  margin: 0;
-  color: #333;
 }
 
-hr {
-  border: 1px solid #333;
-  margin-top: 10px;
-  margin-bottom: 20px;
+nav.navegacion a:hover {
+  background-color: #357ab8;
 }
 
-/* Ajustes para secciones */
+/* Estilos generales de las secciones */
 section {
-  max-width: 800px;
+  padding: 2rem;
+  margin: 1rem auto;
   width: 90%;
-  margin: 0 auto 20px auto; /* Centra y da margen inferior */
+  max-width: 800px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-  color: #333;
-  font-size: 1.2em;
+  color: #4a90e2;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 h3 {
-  color: #647e99;
+  color: #333;
+  font-size: 1.2rem;
+  margin-top: 1rem;
 }
 
-/* Estilos del Footer */
+/* Estilos del footer */
 footer {
-  background-color: #333;
-  color: #fff;
   text-align: center;
-  padding: 15px;
-  width: 100%;
+  padding: 1rem;
+  background-color: #282c34;
+  color: #ffffff;
+  font-size: 0.9rem;
 }
 
 footer a {
-  color: #fff;
+  color: #4a90e2;
   text-decoration: none;
 }
 
@@ -59,35 +85,10 @@ footer a:hover {
   text-decoration: underline;
 }
 
-video {
+/* Estilos del video */
+.video video {
+  display: block;
+  margin: 1rem auto;
   max-width: 100%;
-  height: auto;
-}
-.contenedor {
-  margin: 0 auto;
-  max-width: 1200px;
-}
-
-
-@media (min-width: 600px) {
-  header h1 {
-    font-size: 1.5em; /* Ajuste menor para pantallas medianas */
-  }
-}
-
-@media (min-width: 768px) {
-  section {
-    max-width: 90%;
-    margin-bottom: 25px;
-  }
-}
-
-@media (min-width: 1024px) {
-  header h1 {
-    font-size: 1.8em; /* Ajuste en pantallas más grandes */
-  }
-
-  section {
-    max-width: 800px;
-  }
+  border-radius: 5px;
 }
