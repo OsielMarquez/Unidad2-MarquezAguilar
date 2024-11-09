@@ -5,6 +5,14 @@
   box-sizing: border-box;
 }
 
+.imagen-perfil {
+  width: 150px; 
+  height: auto; 
+  object-fit: cover; 
+  border-radius: 8px;
+  margin-top: 1rem; 
+}
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
