@@ -85,6 +85,18 @@ footer a:hover {
   text-decoration: underline;
 }
 
+/* Estilos del contenedor del video */
+.contenedor-video {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.contenedor-video iframe {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 /* Estilos del video */
 .video video {
   display: block;
