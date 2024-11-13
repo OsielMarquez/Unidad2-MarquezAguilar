@@ -1,0 +1,112 @@
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #5b3030;
+    font-size: 36px;
+}
+
+header {
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+}
+
+header nav#menu_inicio {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    border-bottom: 2px solid black;
+    padding: 10px 0;
+}
+
+header nav#menu_inicio a {
+    text-decoration: none;
+    color: #000000;
+    font-size: larger;
+}
+
+div#catego {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    color: #000000;
+    font-size: larger;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer a {
+    display: flex;
+    color: #000000;
+    font-size: medium;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.ratones_baratos, .ratones_alambricos, .ratones_inalam {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 10px;
+}
+
+/* Media Query para pantallas de 768px o menos */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    nav#menu_inicio {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    header {
+        background-color: papayawhip;
+    }
+
+    .ratones_baratos, .ratones_alambricos, .ratones_inalam {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    footer {
+        font-size: 0.9em;
+        padding: 10px 0;
+    }
+}
+
+/* Media Query para pantallas de 480px o menos */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .ratones_baratos, .ratones_alambricos, .ratones_inalam {
+        grid-template-columns: 1fr;
+    }
+
+    header {
+        background-color: burlywood;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        font-size: 0.8em;
+    }
+}

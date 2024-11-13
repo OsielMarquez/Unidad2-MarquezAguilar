@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practica 12</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+    
+<body>
+
+    <header>
+        <h1>Tienda de ratones</h1>
+        <div>
+            <nav id="menu_inicio">
+                <a href="#inicio.html">Inicio</a>&nbsp;
+                <a href="#nosotros.html">Nosotros</a>&nbsp;
+                <a href="#blog.html">Blog</a>&nbsp;
+                <a href="#galeria.html">Galeria</a>&nbsp;
+                <a href="#contacto.html">Contacto</a>&nbsp;
+            </nav>
+        </div>
+    </header>
+
+    <!--estrucutra rapida: section>h1+div*3>h3+a>img-->
+
+    <section>
+        <h1>Categorias</h1>
+        <div id="catego">
+            <div>
+                <!--id para poder apuntar a el h3-->
+                <h3>Ratones alámbricos</h3>
+                <a href="#ratones_alambri"><img
+                        src="https://http2.mlstatic.com/D_NQ_NP_767390-MLA51439543986_092022-O.webp"
+                        alt="ratones alambricos" width="100" /></a>
+            </div>
+            <div>
+                <h3>Ratones inalámbricos</h3>
+                <a href="#ratones_inalam"><img
+                        src="https://resource.logitech.com/w_386,ar_1.0,c_limit,f_auto,q_auto,dpr_2.0/d_transparent.gif/content/dam/logitech/en/products/mice/design-collection-limited-edition/gallery/design-collection-limited-edition-golden-garden-gallery-1.png?v=1"
+                        alt="ratones inalambricos" width="100" /></a>
+            </div>
+            <div>
+                <h3>Ratones baratos</h3>
+                <a href="#ratones_bara"><img
+                        src="https://cdn.alfabetajuega.com/alfabetajuega/2023/08/raton-logitech-m185.1691486043.2517.png"
+                        alt="ratones baratos" width="100" /></a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section>
+        <h2>Sobre Nosotros</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi eum sapiente enim doloremque quasi eaque
+            at voluptas laboriosam ducimus commodi? Maiores totam voluptas neque optio possimus iure tempora, odio
+            consectetur.</p>
+    </section>
+
+    <main>
+        <!--estrucutra rapida: section>h1+div*3>h3+a>img-->
+        <section>
+            <h1>Nuestro almacen</h1>
+
+              <!--Alambricos-->
+            <h1 id="ratones_alambri">Ratones alámbricos</h1>
+            <!--id para poder apuntar a el h3-->
+            <section class="ratones_alambricos">
+                <div>
+               <h3 id="msi_clutch_gm51_lightweight">MSI Clutch GM51 Lightweight</h3>
+                    <a href="#msi_clutch_gm51_lightweight"><img
+                            src="https://images.versus.io/objects/msi-clutch-gm51-lightweight.front.variety.1687529162540.jpg"
+                            alt="Ratón MSI Clutch GM51 Lightweight" width="100" /></a>
+                    <p>Ratón gaming ultraligero de 85 g, equipado con un sensor
+                        óptico de hasta 26,000 DPI. Diseño ergonómico y textura
+                        antideslizante. Con retroiluminación RGB
+                        personalizable e interruptores mecánicos duraderos</p>
+                    <p>914 pesos</p>
+                    <button type="submit">Agregar al carrito</button>
+                </div>
+                <div>
+                    <h3 id="evga_x17">EVGA X17</h3>
+                    <a href="#evga_x17"><img
+                            src="https://images.versus.io/objects/evga-x17.front.variety.1656578427244.jpg"
+                            alt="Ratón EVGA X17" width="100" /></a>
+                    <p>Mouse para Juegos, con Cable, Personalizable, 16.000 dpi, 5 perfiles, 10 Botones, ergonómico
+                        903-W1-17GR-KR </p>
+                    <p>777 pesos</p>
+                    <button type="submit">Agregar al carrito</button>
+                </div>
+                <div>
+                    <h3 id="razer_deathV3">Razer DeathAdder V3</h3>
+                    <a href="#razer_deathV3"><img
+                            src="https://images.versus.io/objects/razer-deathadder-v3.front.variety.1677539347710.jpg"
+                            alt="Ratón Razer DeathAdder V3" width="100" /></a>
+                    <p>HyperPolling de 8K Hz, Sensor óptico Focus Pro 30K, 59 g, ultraligero, 6 botones programables -
+                        Ergonómico </p>
+                    <p>1200 pesos</p>
+                    <button type="submit">Agregar al carrito</button>
+                </div>
+            </section>
+        </section>
+
+        <h1 id="ratones_bara">Ratones baratos</h1>
+
+        <section class="ratones_baratos">
+            
+            <div>
+                <h3>Amazon Basics 3-Button Wireless</h3>
+                <a href="#"><img
+                        src="https://images.versus.io/objects/amazon-basics-3-button-wireless.front.variety.1689019796589.jpg"
+                        alt="Amazon Basics Mouse" width="100" /></a>
+                <p>Ratón ergonómico inalámbrico para PC, DPI ajustable, color negro </p>
+                <p>342 pesos</p>
+                <button type="submit">Agregar al carrito</button>
+            </div>
+
+            <div>
+                <h3>Inphic PM6 2.4G Wireless</h3>
+                <a href="#"><img
+                        src="https://images.versus.io/objects/inphic-pm6-2-4g-wireless.front.variety.1689030396451.jpg"
+                        alt="Inphic PM6 raton" width="100" /></a>
+                <p>NPHIC Mouse Inalámbrico Recargable, 2.4G Ergonómico Ratón Silencioso Click con Receptor USB,
+                    Óptico Wireless Mouse, 3 Ajustable dpi</p>
+                <p>512 pesos</p>
+                <button type="submit">Agregar al carrito</button>
+            </div>
+        </section>
+
+         <!--Inalábricos-->
+
+         <h1 id="ratones_inalam">Ratones inalámbricos</h1>
+                
+         <section class="ratones_inalambricos">
+         
+             <div>
+                 <h3>Logitech G502 Hero</h3>
+                 <a href="#"><img
+                         src="https://images.versus.io/objects/logitech-g502-hero.front.variety.1654778597846.jpg"
+                         alt="Logitech G502 Hero IMG" width="100" /></a>
+                 <p>
+                     Logitech G502 Hero Edición Especial Mouse para Juegos con Cable de Alto Rendimiento, Sensor
+                     de héroe de 25 K, 25600 dpi, RGB, Peso Ajustable, 11 Botones programables, PC/Mac, Blanco y
+                     Negro
+                 </p>
+                 <p>1191 pesos</p>
+                 <button type="submit">Agregar al carrito</button>
+             </div>
+         </section>
+
+    </main>
+</body>
+
+<footer>
+    <div>
+        <h4>Categorías Adicionales</h4>
+        <nav class="footer_menu">
+            <ul>
+                <li> <a href="#">Ratones ergonómicos</a>&nbsp;</li>
+                <li> <a href="#">Ratones de lujo</a>&nbsp;</li>
+                <li> <a href="#">Ratones edicion litimata</a>&nbsp;</li>
+                <li> <a href="#">Ratones en oferta</a></li>
+            </ul>
+        </nav>
+
+
+    </div>
+
+    <div>
+        <h4>Sobre nosotros</h4>
+        <nav class="footer_menu">
+            <ul>
+                <li> <a href="#">Nuestra Tienda</a>&nbsp;</li>
+                <li> <a href="#">Misión, Visión y Valores</a>&nbsp;</li>
+                <li><a href="#">Política de Privacidad</a>&nbsp;</li>
+                <li><a href="#">Términos del Servicio</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <div>
+        <h4>Soporte</h4>
+        <nav class="footer_menu">
+            <ul>
+                <li><a href="#">Preguntas Frecuentes</a>&nbsp;</li>
+                <li><a href="#">Ayuda en línea</a>&nbsp;</li>
+                <li><a href="#">Confianza y seguridad</a></li>
+            </ul>
+        </nav>
+
+
+    </div>
+</footer>
+<!--Márquez Aguilar Osiel Isaac-->
+
+</html>
